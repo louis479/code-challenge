@@ -1,3 +1,7 @@
+//The readline module is needed to Creates an interface to read input and write output as a node
+// install a readline module through npm install readline-sync
+
+
 const readlineSync = require('readline-sync');
 
 function speedDetector() {
@@ -21,4 +25,6 @@ function speedDetector() {
     }
 }
 
+//helps to detect speed
+//check the grade through node challenge1.js
 speedDetector();

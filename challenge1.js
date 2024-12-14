@@ -1,3 +1,6 @@
+//The readline module is needed to Creates an interface to read input and write output as a node
+// install a readline module through npm install readline-sync
+
 const readlineSync = require('readline-sync');
 
 function gradeGenerator() {
@@ -16,5 +19,6 @@ function gradeGenerator() {
         console.log("Grade: E");
     }
 }
-
+//helps to generate grades
+//check the grade through node challenge1.js
 gradeGenerator();
